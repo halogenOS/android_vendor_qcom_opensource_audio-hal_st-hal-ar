@@ -26,8 +26,8 @@ LOCAL_C_INCLUDES += \
     system/media/audio_utils/include \
     external/expat/lib \
     $(call project-path-for,qcom-audio)/pal \
-    $(call project-path-for,qcom-audio)/hal/audio_extn \
-    $(call project-path-for,qcom-audio)/hal
+    $(call project-path-for,qcom-audio)/primary-hal/hal/audio_extn \
+    $(call project-path-for,qcom-audio)/primary-hal/hal
 
 LOCAL_SRC_FILES := \
     SoundTriggerDevice.cpp \
